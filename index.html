@@ -1,178 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>RiskSarthi | AI Real Estate Risk Analysis</title>
+<title>RiskSarthi — AI Underwriting for Real Estate</title>
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<link rel="stylesheet" href="style.css">
 
-  <body>
-    <!-- NAVBAR -->
+</head>
 
-    <nav class="navbar">
-      <div class="logo">RiskSarthi</div>
+<body>
 
-      <ul>
-        <li><a href="#problem">Problem</a></li>
-        <li><a href="#solution">Solution</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#early">Early Access</a></li>
-      </ul>
+<!-- NAVBAR -->
 
-      <a
-        class="demo-btn"
-        href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/"
-        target="_blank"
-      >
-        Try Demo
-      </a>
-    </nav>
+<nav class="navbar">
 
-    <!-- HERO -->
+<div class="logo">RiskSarthi</div>
 
-    <section class="hero">
-      <div class="hero-text">
-        <h1>AI-Powered Underwriting for Real Estate Projects</h1>
+<ul class="nav-links">
+<li><a href="#problem">Problem</a></li>
+<li><a href="#solution">Solution</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#early">Early Access</a></li>
+</ul>
 
-        <p>
-          Upload project assumptions and generate DSCR analysis, stress testing,
-          and financial risk insights in seconds.
-        </p>
+<a href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/" class="demo-btn">
+Try Demo
+</a>
 
-        <a
-          class="cta-btn"
-          href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/"
-          target="_blank"
-        >
-          Launch Demo
-        </a>
-      </div>
+</nav>
 
-      <div class="hero-image">
-        <div class="dashboard-frame">
-          <img
-            src="demo.png"
-            alt="RiskSarthi Dashboard"
-          />
-        </div>
-      </div>
-    </section>
+<!-- HERO -->
 
-    <!-- PROBLEM -->
+<section class="hero">
 
-    <section id="problem" class="section">
-      <h2>The Problem</h2>
+<div class="hero-left">
 
-      <p>
-        Real estate underwriting still relies heavily on Excel models. Analysts
-        spend hours building spreadsheets that often contain errors. Investment
-        decisions worth millions depend on slow manual analysis.
-      </p>
-    </section>
+<h1>AI-Powered Underwriting for Real Estate Projects</h1>
 
-    <!-- SOLUTION -->
+<p>
+Upload project assumptions and generate DSCR analysis,
+stress testing, and financial risk insights in seconds.
+</p>
 
-    <section id="solution" class="section dark">
-      <h2>The Solution</h2>
+<a href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/" class="cta-btn">
+Launch Demo
+</a>
 
-      <p>
-        RiskSarthi automates financial underwriting using AI. Upload project
-        assumptions and instantly generate DSCR metrics, stress testing
-        scenarios, and portfolio risk insights.
-      </p>
+</div>
 
-      <a
-        class="cta-btn"
-        href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/"
-        target="_blank"
-      >
-        Try the Live Demo
-      </a>
-    </section>
+<div class="hero-right">
 
-    <!-- FEATURES -->
+<img src="demo.png" alt="RiskSarthi Demo">
 
-    <section id="features" class="features">
-      <h2>Key Capabilities</h2>
+</div>
 
-      <div class="feature-grid">
-        <div class="feature-card">
-          <h3>DSCR Analysis</h3>
-          <p>Automatically compute project financial health.</p>
-        </div>
+</section>
 
-        <div class="feature-card">
-          <h3>Stress Testing</h3>
-          <p>Simulate market shocks and construction cost changes.</p>
-        </div>
+<!-- PROBLEM -->
 
-        <div class="feature-card">
-          <h3>Portfolio Risk</h3>
-          <p>Analyze risk across multiple real estate deals.</p>
-        </div>
+<section class="problem" id="problem">
 
-        <div class="feature-card">
-          <h3>AI Credit Memo</h3>
-          <p>Generate underwriting summaries automatically.</p>
-        </div>
-      </div>
-    </section>
+<h2>The Problem</h2>
 
-    <!-- EARLY ACCESS -->
+<p class="section-text">
+Real estate underwriting still relies heavily on complex Excel models.
+Analysts spend hours building spreadsheets that often contain errors.
+Investment decisions worth millions depend on slow manual analysis.
+</p>
 
-    <section id="early" class="section">
-      <h2>Join Early Access</h2>
+<div class="problem-cards">
 
-      <p>
-        Be among the first professionals testing RiskSarthi and help shape the
-        future of AI-powered underwriting.
-      </p>
+<div class="card">
+<h3>⏱ Slow Analysis</h3>
+<p>
+Financial modeling can take 20–40 hours for a single project.
+</p>
+</div>
 
-      <form id="earlyForm">
-        <input type="text" name="name" placeholder="Your Name" required />
+<div class="card">
+<h3>📉 Spreadsheet Errors</h3>
+<p>
+Studies show nearly 80% of financial spreadsheets contain mistakes.
+</p>
+</div>
 
-        <input type="email" name="email" placeholder="Email Address" required />
+<div class="card">
+<h3>⚠ Risk Visibility</h3>
+<p>
+It is difficult to quickly understand project-level and portfolio risk.
+</p>
+</div>
 
-        <input
-          type="text"
-          name="role"
-          placeholder="Role (Analyst / Investor / Developer)"
-        />
+</div>
 
-        <textarea
-          name="feedback"
-          placeholder="Any feedback or suggestions"
-        ></textarea>
+</section>
 
-        <button type="submit">Join Early Access</button>
-      </form>
-    </section>
+<!-- SOLUTION -->
 
-    <!-- FINAL CTA -->
+<section class="solution" id="solution">
 
-    <section class="final-cta">
-      <h2>Start Analyzing Deals with AI</h2>
+<h2>The Solution</h2>
 
-      <a
-        class="cta-btn"
-        href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/"
-        target="_blank"
-      >
-        Launch Demo
-      </a>
-    </section>
+<p class="section-text">
 
-    <!-- FOOTER -->
+RiskSarthi automates financial underwriting using AI.
+Upload project assumptions and instantly generate DSCR metrics,
+stress testing scenarios, and portfolio risk insights.
 
-    <footer>
-      <p>© 2026 RiskSarthi</p>
+</p>
 
-      <p>AI Risk Intelligence for Real Estate</p>
-    </footer>
+<a href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/" class="cta-btn">
+Try the Live Demo
+</a>
 
-    <script src="script.js"></script>
-  </body>
+</section>
+
+<!-- FEATURES -->
+
+<section class="features" id="features">
+
+<h2>Key Capabilities</h2>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+<h3>DSCR Analysis</h3>
+<p>
+Automatically compute project financial health and debt coverage ratios.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>Stress Testing</h3>
+<p>
+Simulate market shocks like interest rate changes or cost overruns.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>Portfolio Risk</h3>
+<p>
+Analyze risk across multiple real estate deals simultaneously.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>AI Credit Memo</h3>
+<p>
+Generate underwriting summaries and highlight potential risks.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- EARLY ACCESS -->
+
+<section class="early-access" id="early">
+
+<h2>Join Early Access</h2>
+
+<p>
+Be among the first professionals testing RiskSarthi and help shape the
+future of AI-powered underwriting.
+</p>
+
+<form id="earlyForm">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="email" id="email" placeholder="Email Address" required>
+
+<input type="text" id="role" placeholder="Role (Analyst / Investor / Developer)" required>
+
+<textarea id="feedback" placeholder="Any feedback or suggestions"></textarea>
+
+<button type="submit" id="submitBtn">
+
+<span id="btnText">Join Early Access</span>
+<span id="loader" class="loader hidden"></span>
+
+</button>
+
+</form>
+
+<p id="successMessage" class="success hidden">
+Thank you! We'll keep you updated.
+</p>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<h2>Start Analyzing Deals with AI</h2>
+
+<a href="https://realestate-dgmabtky25u48bnmzjh2zy.streamlit.app/" class="cta-btn">
+Launch Demo
+</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 RiskSarthi</p>
+
+<p>AI Underwriting for Real Estate Projects</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
 </html>
